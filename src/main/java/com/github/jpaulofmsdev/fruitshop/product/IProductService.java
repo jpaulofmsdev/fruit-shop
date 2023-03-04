@@ -2,6 +2,7 @@ package com.github.jpaulofmsdev.fruitshop.product;
 
 import com.github.jpaulofmsdev.fruitshop.exception.FruitShopException;
 import com.github.jpaulofmsdev.fruitshop.product.dto.CreateOrUpdateProductDTO;
+import com.github.jpaulofmsdev.fruitshop.product.entity.Product;
 
 public interface IProductService {
 

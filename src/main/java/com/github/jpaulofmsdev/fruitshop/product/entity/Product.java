@@ -1,4 +1,4 @@
-package com.github.jpaulofmsdev.fruitshop.product;
+package com.github.jpaulofmsdev.fruitshop.product.entity;
 
 import java.math.BigDecimal;
 
@@ -9,20 +9,18 @@ import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
-import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "product")
 public class Product {
 	
 	@Id
 	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Long id;
 	
-	@Column(name = "name")
+	@Column
 	private String name;
 	
-	@Column(name = "price")
+	@Column
 	private BigDecimal price;
 	
 	public Long getId() {

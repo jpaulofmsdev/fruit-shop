@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 
 import com.github.jpaulofmsdev.fruitshop.exception.FruitShopException;
 import com.github.jpaulofmsdev.fruitshop.product.dto.CreateOrUpdateProductDTO;
+import com.github.jpaulofmsdev.fruitshop.product.entity.Product;
 
 @Service
 public class ProductService implements IProductService {
